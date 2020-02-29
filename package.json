@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "debounce": "^1.2.0",
-    "mermaid": "^8.3.1",
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1",
-    "react-scripts": "3.1.2"
+    "mermaid": "^8.4.8",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
