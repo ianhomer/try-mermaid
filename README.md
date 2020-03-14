@@ -2,11 +2,11 @@
 
 Try Mermaid JS
 
-# tl;dr
+## tl;dr
 
     yarn
     yarn start
 
-# thanks
+## thanks
 
 https://mermaidjs.github.io/#/
