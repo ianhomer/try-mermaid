@@ -4,7 +4,6 @@ import './App.css';
 
 class App extends Component {
   componentDidMount() {
-    const output = document.getElementById("output");
     mermaid.initialize({
       startOnLoad: true
     });
@@ -31,7 +30,10 @@ sequenceDiagram
 `
 
     mermaid.render('graph', graph1, (html) => {
-      document.getElementById(`output`).innerHTML = html;
+      document.getElementById(`output1`).innerHTML = html;
+    })
+    mermaid.render('graph', graph2, (html) => {
+      document.getElementById(`output2`).innerHTML = html;
     })
   }
 
@@ -39,7 +41,8 @@ sequenceDiagram
     return (
       <div className="App">
         Mermaid
-        <div id="output"/>
+        <div id="output1"/>
+        <div id="output2"/>
       </div>
     );
   }
