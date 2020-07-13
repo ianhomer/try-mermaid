@@ -1,16 +1,17 @@
 # IDEA
 
-.idea/workspace.xml
-.idea/sonarlint
-
-# Node.js
-
-node_modules# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.idea
 
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+
+# Yarn (not zero installs)
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
 
 # testing
 /coverage
