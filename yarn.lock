@@ -2845,7 +2845,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-eslint@npm:10.1.0":
+"babel-eslint@npm:10.1.0, babel-eslint@npm:^10.1.0":
   version: 10.1.0
   resolution: "babel-eslint@npm:10.1.0"
   dependencies:
@@ -4232,15 +4232,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"crypto-random-string@npm:^3.0.1":
-  version: 3.2.0
-  resolution: "crypto-random-string@npm:3.2.0"
-  dependencies:
-    type-fest: ^0.8.1
-  checksum: a759bd86fff1dacc00088fb4f6d4f6202e212793e4cc5bcba8e14e12865d8dcaa27e581b2e71a38cbeb3254ac9a5c06e7768f9908736b280d4d07c6134063613
-  languageName: node
-  linkType: hard
-
 "css-b64-images@npm:~0.2.5":
   version: 0.2.5
   resolution: "css-b64-images@npm:0.2.5"
@@ -5562,13 +5553,6 @@ __metadata:
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: f9484b8b4c8827d816e0fd905c25ed4b561376a9c220e1430403ea84619bf680c76a883a48cff8b8e091daf55d6a497e37479f9787b9f15f3c421b6054289744
-  languageName: node
-  linkType: hard
-
-"escaper@npm:^2.5.3":
-  version: 2.5.3
-  resolution: "escaper@npm:2.5.3"
-  checksum: a2166adac6f9f9832c983e8286f80668e6621a484d18a00d81ddf4b756f022dc0186d3cddd2ccfbe9b0bdd71e76c4405742dbc62038a46b8f7335192a1069a21
   languageName: node
   linkType: hard
 
@@ -8612,6 +8596,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"khroma@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "khroma@npm:1.1.0"
+  checksum: 2b9155dea82a6d5a42d6d69816883c01288f89f46d3434740c24dc1fa3043e2a50a1b77551d310e4381c20504097170c266c25f30b278fa756ca12cda8909bf0
+  languageName: node
+  linkType: hard
+
 "killable@npm:^1.0.1":
   version: 1.0.1
   resolution: "killable@npm:1.0.1"
@@ -9084,22 +9075,23 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mermaid@npm:^8.6.4":
-  version: 8.6.4
-  resolution: "mermaid@npm:8.6.4"
+"mermaid@npm:^8.7.0":
+  version: 8.7.0
+  resolution: "mermaid@npm:8.7.0"
   dependencies:
     "@braintree/sanitize-url": ^3.1.0
-    crypto-random-string: ^3.0.1
+    babel-eslint: ^10.1.0
     d3: ^5.7.0
     dagre: ^0.8.4
     dagre-d3: ^0.6.4
     entity-decode: ^2.0.2
     graphlib: ^2.1.7
     he: ^1.2.0
+    khroma: ^1.1.0
     minify: ^4.1.1
     moment-mini: ^2.22.1
-    scope-css: ^1.2.1
-  checksum: a360f72b851a27a3bbaca7721241aabed8bd6d537e233a818b1342e257d5407a2984e5a044bd3250f18ccc856cc6442857509def8a757cf99237e2fecb9d5da7
+    stylis: ^3.5.2
+  checksum: b9e35297286b088ce84e987224ec5f68b7fd7c9e8ec03a2345ae2afe14e453e2915ff415a58e821aecad3acbcf6e4cabc7b8e2d2e2e1dc9994a27eaf801be251
   languageName: node
   linkType: hard
 
@@ -12447,17 +12439,6 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"scope-css@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "scope-css@npm:1.2.1"
-  dependencies:
-    escaper: ^2.5.3
-    slugify: ^1.3.1
-    strip-css-comments: ^3.0.0
-  checksum: 439b4fabd66132eb435e01507fada42402dc18c51fc4212385b5dda8a2255e92a8cf5eaf3cb11fa76480dd1b64b6a92664c492e0f3a564965fc08b47c10ef1d6
-  languageName: node
-  linkType: hard
-
 "select-hose@npm:^2.0.0":
   version: 2.0.0
   resolution: "select-hose@npm:2.0.0"
@@ -12755,13 +12736,6 @@ resolve@1.1.7:
     astral-regex: ^1.0.0
     is-fullwidth-code-point: ^2.0.0
   checksum: 7578393cac91c28f8cb5fa5df36b826ad62c9e66313d2547770db8401570fa8f4aa20cd84ef9244fa054d8e9cc6bfc02578784bb89b238d384b99f2728a35a6d
-  languageName: node
-  linkType: hard
-
-"slugify@npm:^1.3.1":
-  version: 1.4.4
-  resolution: "slugify@npm:1.4.4"
-  checksum: 707c9d4743094dcf4502658073d6f8222bbec56f13737626a4b8b870449209737144f5bcb535cbc2849f70a900a347bcd07608be7b315201682d82ee23a7a61b
   languageName: node
   linkType: hard
 
@@ -13266,15 +13240,6 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"strip-css-comments@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "strip-css-comments@npm:3.0.0"
-  dependencies:
-    is-regexp: ^1.0.0
-  checksum: f8d66f7efd25cc2d670479a8bbee03df8b719cd300c907203dd77799384052e615eb080d45a9d72c5f6787d02c4339fa2c4859c95661999e9e11793775ff3e0a
-  languageName: node
-  linkType: hard
-
 "strip-eof@npm:^1.0.0":
   version: 1.0.0
   resolution: "strip-eof@npm:1.0.0"
@@ -13307,6 +13272,13 @@ resolve@1.1.7:
     postcss: ^7.0.0
     postcss-selector-parser: ^3.0.0
   checksum: 1345ad348db3c98f7d0423762e13e816a8c1ba0b1d90d79f3528513be429f1cf68b7fa9c9d379870208586e7ff4cfb68b4121bbd904df03b17e84d62efcff288
+  languageName: node
+  linkType: hard
+
+"stylis@npm:^3.5.2":
+  version: 3.5.4
+  resolution: "stylis@npm:3.5.4"
+  checksum: 356e2352b1800595c46f3969c6afdce82ab3e5d668bbb6733e68a4968fa2190208cccd74129b7456e80ade3d321beeaff7c2c69ab90288127221062f90dcff99
   languageName: node
   linkType: hard
 
@@ -13639,7 +13611,7 @@ resolve@1.1.7:
   resolution: "try-mermaid@workspace:."
   dependencies:
     debounce: ^1.2.0
-    mermaid: ^8.6.4
+    mermaid: ^8.7.0
     react: ^16.13.1
     react-dom: ^16.13.1
     react-scripts: ^3.4.1
