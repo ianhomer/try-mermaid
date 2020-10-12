@@ -9021,9 +9021,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mermaid@npm:^8.8.1":
-  version: 8.8.1
-  resolution: "mermaid@npm:8.8.1"
+"mermaid@npm:^8.8.2":
+  version: 8.8.2
+  resolution: "mermaid@npm:8.8.2"
   dependencies:
     "@braintree/sanitize-url": ^3.1.0
     babel-eslint: ^10.1.0
@@ -9037,7 +9037,7 @@ fsevents@^1.2.7:
     minify: ^4.1.1
     moment-mini: ^2.22.1
     stylis: ^3.5.2
-  checksum: 8cdf227b8c0e422bbb0709d13ead5abad28d6bf8a6e03f8ff0d49d8dd8afc02052efeaa8f3187b93323899dcfa97ababaf12f6a7e4dd2068cba89a560a9de482
+  checksum: 2ac546a9802f6f50716b22df95a9553339ba23a9bf4fa31d3fa8ec72487376ae1f1a0ac8ad811ce24a9cafffa489cb26f5449bfba2b0ce1e184d8a9c8e0963fe
   languageName: node
   linkType: hard
 
@@ -13528,7 +13528,7 @@ resolve@1.1.7:
   resolution: "try-mermaid@workspace:."
   dependencies:
     debounce: ^1.2.0
-    mermaid: ^8.8.1
+    mermaid: ^8.8.2
     react: ^16.13.1
     react-dom: ^16.13.1
     react-scripts: ^3.4.3
