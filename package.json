@@ -2,6 +2,34 @@
   "name": "try-mermaid",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "format:pkg": "format-package -w",
+    "prettier": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write .",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "update": "npx npm-check-updates -u"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "resolutions": {
+    "websocket-extensions": "^0.1.4"
+  },
   "dependencies": {
     "debounce": "^1.2.0",
     "mermaid": "^8.8.2",
@@ -9,29 +37,8 @@
     "react-dom": "^16.14.0",
     "react-scripts": "^3.4.3"
   },
-  "resolutions": {
-    "websocket-extensions": "^0.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "update": "npx npm-check-updates -u"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "format-package": "^6.1.0",
+    "prettier": "^2.1.2"
   }
 }

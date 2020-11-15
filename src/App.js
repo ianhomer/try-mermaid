@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import mermaid from 'mermaid';
-import './App.css';
+import React, { Component } from "react";
+import mermaid from "mermaid";
+import "./App.css";
 
 class App extends Component {
   componentDidMount() {
     mermaid.initialize({
-      startOnLoad: true
+      startOnLoad: true,
     });
 
     const graph1 = `
@@ -13,7 +13,7 @@ graph LR
   A[square] --- B(Round)
   B-->C{Decision}
   B-->|Label| D(Result one)
-`
+`;
 
     const graph2 = `  
 sequenceDiagram
@@ -27,22 +27,22 @@ sequenceDiagram
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!  
-`
+`;
 
-    mermaid.render('graph', graph1, (html) => {
+    mermaid.render("graph", graph1, (html) => {
       document.getElementById(`output1`).innerHTML = html;
-    })
-    mermaid.render('graph', graph2, (html) => {
+    });
+    mermaid.render("graph", graph2, (html) => {
       document.getElementById(`output2`).innerHTML = html;
-    })
+    });
   }
 
   render() {
     return (
       <div className="App">
         Mermaid
-        <div id="output1"/>
-        <div id="output2"/>
+        <div id="output1" />
+        <div id="output2" />
       </div>
     );
   }
