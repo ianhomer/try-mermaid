@@ -2874,7 +2874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-eslint@npm:10.1.0, babel-eslint@npm:^10.1.0":
+"babel-eslint@npm:10.1.0":
   version: 10.1.0
   resolution: "babel-eslint@npm:10.1.0"
   dependencies:
@@ -9172,12 +9172,11 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mermaid@npm:^8.8.3":
-  version: 8.8.3
-  resolution: "mermaid@npm:8.8.3"
+"mermaid@npm:^8.8.4":
+  version: 8.8.4
+  resolution: "mermaid@npm:8.8.4"
   dependencies:
     "@braintree/sanitize-url": ^3.1.0
-    babel-eslint: ^10.1.0
     d3: ^5.7.0
     dagre: ^0.8.4
     dagre-d3: ^0.6.4
@@ -9188,7 +9187,7 @@ fsevents@^1.2.7:
     minify: ^4.1.1
     moment-mini: ^2.22.1
     stylis: ^3.5.2
-  checksum: 4f8f38ffd40f8f631418296687f4069baa8a9881eef9ab792958da443a6e68fe8094facc6467db1686da2cd7f18034d266a894e2c153d95c9259272bdb08c41d
+  checksum: 71fe9deeafd21d303b3ad367ea238e38e10f8a3b76870f45d3461c2ce18c931f3586a4b4884fe9f1cb5eb69d7d9d6c845c1e8343c6920c73922ed8bcc0e339c6
   languageName: node
   linkType: hard
 
@@ -13718,7 +13717,7 @@ resolve@1.1.7:
   dependencies:
     debounce: ^1.2.0
     format-package: ^6.1.0
-    mermaid: ^8.8.3
+    mermaid: ^8.8.4
     prettier: ^2.2.1
     react: ^17.0.1
     react-dom: ^17.0.1

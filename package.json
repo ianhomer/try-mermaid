@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "debounce": "^1.2.0",
-    "mermaid": "^8.8.3",
+    "mermaid": "^8.8.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "3.4.4"
