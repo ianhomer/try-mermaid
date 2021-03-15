@@ -31,8 +31,8 @@
     "websocket-extensions": "^0.1.4"
   },
   "dependencies": {
-    "debounce": "^1.2.0",
-    "mermaid": "^8.9.1",
+    "debounce": "^1.2.1",
+    "mermaid": "^8.9.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "3.4.4"

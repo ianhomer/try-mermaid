@@ -4938,10 +4938,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debounce@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "debounce@npm:1.2.0"
-  checksum: 3eb07f76c54f3563d9183aff9a28c61864aa65c3f5f17acc227ce28dc55fb96faa680aebe3c898af17d3e4dfb6cfb92df6179fa9d5566111b129e1de19cfc7e0
+"debounce@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "debounce@npm:1.2.1"
+  checksum: 04a00c6c45173ac6fb03ad3a7cf742fa4a86f6bf86b22f5b867085f739d0010ad98cbb92e80d60293faf6efb5452c637941092bd8d783cfeabe55c2000b1b07f
   languageName: node
   linkType: hard
 
@@ -9172,9 +9172,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mermaid@npm:^8.9.1":
-  version: 8.9.1
-  resolution: "mermaid@npm:8.9.1"
+"mermaid@npm:^8.9.2":
+  version: 8.9.2
+  resolution: "mermaid@npm:8.9.2"
   dependencies:
     "@braintree/sanitize-url": ^3.1.0
     d3: ^5.7.0
@@ -9187,7 +9187,7 @@ fsevents@^1.2.7:
     minify: ^4.1.1
     moment-mini: ^2.22.1
     stylis: ^3.5.2
-  checksum: 5b1c60bbc0909d0e81459638ffc2f96c613bf7d7f7d1e1fa07fdd4ecfedd7886100d8ba84b62cabb01aa330dd7f65d61e60d1dd3cd84f3c7fa54b0d4e5b2cc19
+  checksum: 9ded4aca6ac785bafe421713ad5833f34b3a2f3367d3c976af2e168e3ce8ef4a12515653cd547dc58086abaddb951a5ec84cd486bef494619264f1ec26e6f047
   languageName: node
   linkType: hard
 
@@ -13715,9 +13715,9 @@ resolve@1.1.7:
   version: 0.0.0-use.local
   resolution: "try-mermaid@workspace:."
   dependencies:
-    debounce: ^1.2.0
+    debounce: ^1.2.1
     format-package: ^6.1.0
-    mermaid: ^8.9.1
+    mermaid: ^8.9.2
     prettier: ^2.2.1
     react: ^17.0.1
     react-dom: ^17.0.1
